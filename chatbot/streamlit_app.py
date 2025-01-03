@@ -44,7 +44,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # Input box for user
 #user_input = st.text_area("Type your message here", height=5)
 user_input = st.text_area("Type your message here", "", height=100)
-st.write(user_input)
+# st.write(user_input)
 
 # Handle message sending
 if st.button("Submit"):
