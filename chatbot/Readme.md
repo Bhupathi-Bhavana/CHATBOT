@@ -24,12 +24,12 @@ Welcome to the **Smart Chatbot Wizard**! This is an interactive chatbot built us
   <p>Designed to help users with queries and provide relevant information.</p>
 </div>
 
-## Installation
-
-### Step 1: Clone the Repository
+Steps to Run the Chatbot
+Step 1: Clone the Repository
 Clone this repository to your local machine using the following command:
 
-```bash
+bash
+Copy code
 git clone https://github.com/Bhupathi-Bhavana/Implementation-Of-Chatbot-Using-NLP.git
 Step 2: Install Dependencies
 Make sure you have Python installed. Then, install the necessary dependencies by running:
@@ -79,7 +79,10 @@ Structure:
 Patterns: A list of input patterns (phrases) that the chatbot can recognize.
 Responses: A list of responses the bot will give when it matches any of the patterns.
 Technologies Used
-<div style="border: 2px solid #4CAF50; padding: 10px; border-radius: 5px; background-color: #f0f8f0; margin-bottom: 10px;"> <h3>Streamlit</h3> <p>For building the interactive user interface.</p> </div> <div style="border: 2px solid #4CAF50; padding: 10px; border-radius: 5px; background-color: #f0f8f0; margin-bottom: 10px;"> <h3>Python</h3> <p>The main programming language used to build the chatbot.</p> </div> <div style="border: 2px solid #4CAF50; padding: 10px; border-radius: 5px; background-color: #f0f8f0; margin-bottom: 10px;"> <h3>JSON</h3> <p>Used to store intents, patterns, and responses for easy customization.</p> </div> <div style="border: 2px solid #4CAF50; padding: 10px; border-radius: 5px; background-color: #f0f8f0; margin-bottom: 10px;"> <h3>NLP</h3> <p>Natural Language Processing techniques for understanding and responding to user input.</p> </div>
+Streamlit: For building the interactive user interface.
+Python: The main programming language used to build the chatbot.
+JSON: Used to store intents, patterns, and responses for easy customization.
+NLP: Natural Language Processing techniques for understanding and responding to user input.
 Contributions
 If you would like to contribute to the project, feel free to fork the repository and submit a pull request with your changes.
 
