@@ -59,7 +59,7 @@ if st.button("Submit"):
 # Footer section
 st.markdown(
     "<div style='position: fixed; bottom: 10px; right: 10px; text-align: right; font-size: 14px; opacity: 0.7; transition: opacity 0.3s;' onmouseover='this.style.opacity=1' onmouseout='this.style.opacity=0.7;'>" +
-    "<p>Created by <a href='https://github.com/Bhupathi-Bhavana/CHATBOT/' target='_blank'>Bhavana Bhupathi</a></p>" +
+    "<p>Created by <a href='https://github.com/Bhupathi-Bhavana/CHATBOT' target='_blank'>Bhavana Bhupathi</a></p>" +
     "</div>",
     unsafe_allow_html=True
 )
