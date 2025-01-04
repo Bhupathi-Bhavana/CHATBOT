@@ -12,7 +12,7 @@ nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download('punkt')
 
 
-with open('C:\Users\sushm\OneDrive\Desktop\Internship\CHATBOT\intents.json', 'r') as file:
+with open('chatbot\intents.json', 'r') as file:
     intents = json.load(file)
 
 
