@@ -25,7 +25,7 @@ st.markdown("<div style='text-align: center;'><h1>Chatbot Wizard 🧙‍♂️�
 st.markdown("<div style='text-align: center;'><h3>Welcome to the Chatbot! How can I assist you today?</h3></div>", unsafe_allow_html=True)
 
 # Load intents from file
-intents_file_path = "chatbot\intents.json"
+intents_file_path = "chatbot/intents.json"
 intents = load_intents(intents_file_path)
 
 # Initialize messages in session state
