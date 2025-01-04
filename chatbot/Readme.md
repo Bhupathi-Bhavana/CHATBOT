@@ -15,28 +15,43 @@ This repository contains the implementation of a simple chatbot using Natural La
 - **Scikit-learn**: For machine learning algorithms used in intent classification.
 - **TensorFlow/Keras** (Optional): For more advanced chatbot implementations using neural networks.
 
-## Installation
+## **Installation**
 
 To run the chatbot, make sure you have Python 3.7+ installed, and follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/chatbot-nlp.git
    cd chatbot-nlp
-2. Install the required libraries:
-bash
-Copy code
-pip install -r requirements.txt
+   ```
 
-3.Interact with the Chatbot:
-Once the program is running, type your message and the chatbot will respond based on the trained model and pattern matching rules.
+2. **Install the required libraries**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4.Exit the Chatbot: 
-Type "exit" to terminate the chat.
+## **Usage**
 
-Training Data Format
-The training data (located in data/intents.json) should have the following format:
+1. **Train the Model**: If the chatbot requires training (for instance, an intent classifier), run:
+   ```bash
+   python train.py
+   ```
+   This will process the training data and create a model for intent classification.
 
+2. **Run the Chatbot**: Start the chatbot in interactive mode:
+   ```bash
+   python chatbot.py
+   ```
+
+3. **Interact with the Chatbot**: Once the program is running, type your message, and the chatbot will respond based on the trained model and pattern matching rules.
+
+4. **Exit the Chatbot**: Type "exit" to terminate the chat.
+
+## **Training Data Format**
+
+The training data (located in `data/intents.json`) should have the following format:
+
+```json
 {
   "intents": [
     {
@@ -66,20 +81,28 @@ The training data (located in data/intents.json) should have the following forma
     }
   ]
 }
+```
 
-Each intent contains a list of patterns (user input) and corresponding responses.
-The model will classify the input into one of the intents, and the chatbot will select a random response from the corresponding intent.
+- Each **intent** contains:
+  - **patterns**: A list of user inputs.
+  - **responses**: Corresponding chatbot responses.
 
-Future Improvements
-Advanced NLP models: Implement deep learning-based models (e.g., RNN, LSTM, BERT) for more accurate intent classification and response generation.
-Sentiment Analysis: Enhance the chatbot to detect the sentiment of the user’s input for more personalized responses.
-GUI Interface: Develop a graphical user interface (GUI) for better user interaction.
-Contributing
-If you want to contribute to this project, feel free to fork the repository and create a pull request. Ensure that you follow the code style and include test cases for new features or bug fixes.
+- The model will classify the input into one of the intents, and the chatbot will select a random response from the corresponding intent.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## **Future Improvements**
+- **Advanced NLP models**: Implement deep learning-based models (e.g., RNN, LSTM, BERT) for more accurate intent classification and response generation.
+- **Sentiment Analysis**: Enhance the chatbot to detect the sentiment of the user’s input for more personalized responses.
+- **GUI Interface**: Develop a graphical user interface (GUI) for better user interaction.
 
-Acknowledgements
-NLTK for text preprocessing and tokenization.
-Scikit-learn for machine learning tools.
+## **Contributing**
+If you want to contribute to this project:
+- **Fork the repository** and create a pull request.
+- Ensure that you follow the code style.
+- Include test cases for new features or bug fixes.
+
+## **License**
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+## **Acknowledgements**
+- **NLTK** for text preprocessing and tokenization.
+- **Scikit-learn** for machine learning tools.
