@@ -42,7 +42,7 @@ for message in st.session_state.messages:
 st.markdown("</div>", unsafe_allow_html=True)
 
 # Input box for user
-user_input = st.text_area("Type your message here", "", height=90)
+user_input = st.text_area("Type your message here", "", height=70)
 
 # Handle message sending
 if st.button("Submit"):
